@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2024-09-09_19-17-31")(type "KiCad")(uri "D:/NYSM.2_TMC2209_Stepper_driver/libraries/ul_TMC2209/KiCADv6/2024-09-09_19-17-31.kicad_sym")(options "")(descr ""))
+  (lib (name "M.2-Templates-eagle-import")(type "KiCad")(uri "D:/NYSM.2_TMC2209_Stepper_driver/libraries/M.2-Templates-eagle-import.kicad_sym")(options "")(descr ""))
+)

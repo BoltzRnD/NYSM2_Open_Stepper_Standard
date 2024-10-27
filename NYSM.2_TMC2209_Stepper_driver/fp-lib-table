@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "M.2-Templates")(type "KiCad")(uri "D:/NYSM.2_TMC2209_Stepper_driver/libraries/M.2-Templates.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "C:/Users/skmsa/Downloads/ul_TMC2209/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "TMC2209")(type "KiCad")(uri "C:/Users/yatin/Documents/GitHub/NYSM.2_TMC2209_Stepper_driver/libraries/ul_TMC2209/KiCADv6/TMC2209.pretty")(options "")(descr ""))
+  (lib (name "NYSM2-Card-B-Key")(type "KiCad")(uri "C:/Users/yatin/OneDrive/Documents/GitHub/NYSM.2_TMC2209_Stepper_driver/libraries/NYSM2-Card-B-Key/NYSM2-Card-B-Key.pretty")(options "")(descr ""))
+)
