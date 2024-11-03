@@ -59,6 +59,14 @@ unlike other modular stepper interfaces, this interface is open inside out, and 
 | B1         | 44, 46, 48, 50, 52, 54, 56, 58 | Motor coil B output 1 (0.5A per pin, 4A Total)
 | B2         | 60, 62, 64, 66, 68, 70, 72, 74 | Motor coil B output 2 (0.5A per pin, 4A Total)
 
+# Manufacturing and other design considerations
+
+Please take special care to follow these points when manufacturing the NYSM2 Boards
+1. Board Thickness - 0.8mm (Standard M.2 Board Thickness)
+2. Gold Plating is preferred but not Necessary.
+3. This Version of the board omits the use of current limit series phase resistors, in case it is a necessity for your design, reach out to us and we will release an alternative design with resistors.
+4. Short The onboard jumper to use the potentiometer for standalone mode.
+5. Use a generic Raspberry Pi or other 25x25mm heatsinks on top.
 
 # License
 NYSM.2 standard pinout and NYSM.2 TMC2209 Board contributed by Boltz R&D is licensed under GPL V3 license, and is owned by the community and everyone.
