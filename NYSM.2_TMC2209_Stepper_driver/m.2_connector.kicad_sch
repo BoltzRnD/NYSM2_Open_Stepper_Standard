@@ -5,9 +5,9 @@
 	(uuid "ce80f241-2aea-4575-9543-742f2cf7cb5c")
 	(paper "A4")
 	(title_block
-		(title "NYSM.2 TMC2209 Module")
-		(date "2024-10-22")
-		(rev "2")
+		(title "NYSM.2 TMC2209 Module with External Sense Resistors")
+		(date "2024-11-08")
+		(rev "3")
 		(company "Boltz R&D")
 		(comment 1 "License: This work is licensed under GPLV3")
 	)
@@ -3206,7 +3206,7 @@
 			)
 		)
 	)
-	(global_label "SPREAD"
+	(global_label "SPREAD_NC"
 		(shape input)
 		(at 135.89 52.07 90)
 		(fields_autoplaced yes)
@@ -3218,7 +3218,7 @@
 		)
 		(uuid "fc67ee35-d9d0-4f3b-8e05-34f31e983dd8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 41.8277 90)
+			(at 135.89 38.2596 90)
 			(effects
 				(font
 					(size 1.27 1.27)
