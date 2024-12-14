@@ -3850,7 +3850,7 @@
 				)
 			)
 		)
-		(property "Value" "20K"
+		(property "Value" "20K POT"
 			(at 110.49 139.192 0)
 			(effects
 				(font
@@ -3937,7 +3937,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "476976e3-f3f9-490d-b6f7-ef1882aefe6f")
 		(property "Reference" "R9"
 			(at 207.264 121.92 0)
@@ -5517,7 +5517,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e79e099d-d728-43db-a3c7-ef1233d8a60e")
 		(property "Reference" "R8"
 			(at 207.264 110.49 0)
