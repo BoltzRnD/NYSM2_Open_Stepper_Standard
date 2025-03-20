@@ -1,0 +1,21 @@
+Designator,Comment,Datasheet,Footprint,Qty,DNP,JLCPCB Part #?optional?
+C1,22nF/50V,~,Capacitor_SMD:C_0402_1005Metric,1,,C107026
+C2,100nF/50V,~,Capacitor_SMD:C_0402_1005Metric,1,,C152814
+C6,100nF/50V,~,Capacitor_SMD:C_0402_1005Metric,1,,C152814
+C7,4.7uF 10V,~,Capacitor_SMD:C_0402_1005Metric,1,,C368809
+C8,1uF/50V,~,Capacitor_SMD:C_0402_1005Metric,1,,C1518208
+C9,100nF/50V,~,Capacitor_SMD:C_0402_1005Metric,1,,C152814
+C10,100nF/50V,~,Capacitor_SMD:C_0402_1005Metric,1,,C152814
+R1,20K,~,Resistor_SMD:R_0402_1005Metric,1,,C384364
+R2,20K,~,Resistor_SMD:R_0402_1005Metric,1,,C384364
+R3,0R100,~,Resistor_SMD:R_1206_3216Metric,1,,C3033268
+R4,0R100,~,Resistor_SMD:R_1206_3216Metric,1,,C3033268
+R5,20K,~,Resistor_SMD:R_0402_1005Metric,1,,C384364
+R6,20K,~,Resistor_SMD:R_0402_1005Metric,1,,C384364
+R7,100K,~,Resistor_SMD:R_0402_1005Metric,1,,C384388
+R8,NC,~,Resistor_SMD:R_0402_1005Metric,1,DNP,
+R9,NC,~,Resistor_SMD:R_0402_1005Metric,1,DNP,
+R10,20K,~,Resistor_SMD:R_0402_1005Metric,1,,C384364
+RV1,20K POT,,Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical,1,,C128550
+U1,TMC2209,TMC2209,TMC2209:QFN28_5X5_TRI,1,,C465949
+U2,M.2-B-KEY,,NYSM2-Card-B-Key:NYSM2-Card-B-Key,1,,
