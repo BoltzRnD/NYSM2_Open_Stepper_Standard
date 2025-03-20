@@ -5,6 +5,7 @@
 # NYSM.2 Open Stepper Standard
 ## Not Your Standard M.2
 ### "Not Your Standard M.2" is literally not your standard m.2 interface, and is a new open-source stepper motor driver board that utilizes the M.2 interface to control motors using the TMCxx and all other stepper drivers.
+### Note: This Branch implements the alternate design that uses sense resistors for tmc2209.
 
 Modular stepper drivers are far superior than traditional pololu footprints as it has
 
@@ -59,6 +60,13 @@ unlike other modular stepper interfaces, this interface is open inside out, and 
 | B1         | 44, 46, 48, 50, 52, 54, 56, 58 | Motor coil B output 1 (0.5A per pin, 4A Total)
 | B2         | 60, 62, 64, 66, 68, 70, 72, 74 | Motor coil B output 2 (0.5A per pin, 4A Total)
 
+# Manufacturing and other design considerations
+
+Please take special care to follow these points when manufacturing the NYSM2 Boards
+1. Board Thickness - 0.8mm (Standard M.2 Board Thickness)
+2. Gold Plating is preferred but not Necessary.
+3. Short The onboard jumper to use the potentiometer to set max current for driver.
+4. Use a generic Raspberry Pi or other 25x25mm heatsinks on top.
 
 # License
 NYSM.2 standard pinout and NYSM.2 TMC2209 Board contributed by Boltz R&D is licensed under GPL V3 license, and is owned by the community and everyone.
