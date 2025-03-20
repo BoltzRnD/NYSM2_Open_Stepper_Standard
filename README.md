@@ -64,7 +64,7 @@ unlike other modular stepper interfaces, this interface is open inside out, and 
 Please take special care to follow these points when manufacturing the NYSM2 Boards
 1. Board Thickness - 0.8mm (Standard M.2 Board Thickness)
 2. Gold Plating is preferred but not Necessary.
-3. This Version of the board omits the use of current limit series phase resistors, in case it is a necessity for your design, reach out to us and we will release an alternative design with resistors.
+3. This Version of the board omits the use of current limit series phase resistors, in case it is a necessity for your design, Please use the design from Branch alt_sense
 4. Short The onboard jumper to use the potentiometer for standalone mode.
 5. Use a generic Raspberry Pi or other 25x25mm heatsinks on top.
 
