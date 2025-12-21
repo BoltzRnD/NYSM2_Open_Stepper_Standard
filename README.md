@@ -85,6 +85,11 @@ We invite all creators, hobbyist, and manufacturers to utilize the standard and 
 3. **Step 3**: Configure your firmware (e.g., **Marlin** or **Klipper**) to control the TMC2209 driver.
 4. **Step 4**: Power on the system, and your motors are ready.
 
+## Firmware Changes
+1. In klipper change set step_pulse_duration to 0.000000400 or more, in case you face print misallignment or continous layer shifting.
+- Reason: Apparently if you are using the EVAL board with NYSM.2, when using klipper and in UART mode, the firmnware switches to pulse timing of 100ns which causes step and dir to overlap sometimes over long cables, anyways 100ns was already an overkill since in standalone mode the pulse duration defaults to 2uS. this shouldn't happen with installations of NYSM.2 standard where the socket is on the mainboard itself
+
+
 ## Getting Started on Development:
 
 Clone the repository:  
